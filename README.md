@@ -1,0 +1,5 @@
+I created a new type, TypeC that extends Thing and is within the TypeC.java file. 
+
+My new object oriented program designed allowed me to create TypeC very efficiently. Using the concept of inheritance, I extended the TypeC type from the abstract Thing class. This approach allowed me to avoid redundancy of rewriting the same code, with methods such as right turn, left turn, maybe turn, and step to be inherited into TypeC from Thing. 
+
+Within my program, there are multiple polymorphic function calls. TypeA, B, and C are all child classes of Thing, where all the methods and variables of Thing are inherited into those types. Within Thing, there is the method maybeturn that relies on polymorphic behavior enabled by the abstract class Thing. The polymorphic call occurs when maybeturn is rewritten in all the Types, where the actual behavior is determined at runtime based on the specific Type the method is called on. This plays an essential role in the program functioning properly because it enhances code maintainability, which ensures the code can easily adjust to the different branches of the same method structure.

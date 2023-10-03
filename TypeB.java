@@ -5,7 +5,7 @@ public class TypeB extends Thing{
     public TypeB (int row, int col, char lab){
         this.row = row;
         this.col = col;
-       this.lab = 'a';
+       this.lab = 'b';
     }
 
 public void maybeTurn(Random rand){

@@ -8,14 +8,16 @@ public class TypeC extends Thing {
   }
 
 public void maybeTurn(Random ran){
-    int i = ran.nextInt(2);
-    if(i == 0){
-        rightTurn();
+  int i = ran.nextInt(2);
+  timeSinceLast++;
+  if (timeSinceLast == 1) {
+    timeSinceLast = 0;
+      this.rightTurn();
+      this.leftTurn();
+      this.rightTurn();
     }
-    else{
-        leftTurn();
-        rightTurn();
+    if(i == 1){
+      leftTurn();
     }
-}
-
+  }
 }
