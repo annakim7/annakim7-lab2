@@ -49,9 +49,4 @@ public ThingList(Thing thing, int i){
      System.out.println("done");
      System.out.flush();
     }
-
-
-
-  
-
 }
