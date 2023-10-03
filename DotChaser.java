@@ -2,13 +2,6 @@ import java.util.*;
 
 public class DotChaser {
 
-  /**
-   * A "Thing" moves in a grid world. A TypeA Thing randomly
-   * decides to turn left or right (or not turn) every "round",
-   * and, afterward, takes a step forward.  A TypeB Thing
-   * only considers making a random turn every 10th round.
-   */
-
   public static void main(String[] args) {
     int N = 200;
 
